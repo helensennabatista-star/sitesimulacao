@@ -3,23 +3,18 @@
   publish = "dist"
 
 [[headers]]
-  for = "/src/main.jsx"
+  for = "/assets/*.js"
   [headers.values]
     Content-Type = "application/javascript"
 
 [[headers]]
-  for = "/src/App.jsx"
-  [headers.values]
-    Content-Type = "application/javascript"
-
-[[headers]]
-  for = "/src/index.css"
+  for = "/assets/*.css"
   [headers.values]
     Content-Type = "text/css"
 
 [[headers]]
-  for = "/assets/*"
+  for = "/index.html"
   [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "text/html"
 
 
